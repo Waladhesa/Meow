@@ -4,72 +4,71 @@
 -- Instances:
 
 local WaladHessa = Instance.new("ScreenGui")
-local UIAspectRatioConstraint = Instance.new("UIAspectRatioConstraint")
 local Frame = Instance.new("Frame")
-local UIAspectRatioConstraint_2 = Instance.new("UIAspectRatioConstraint")
+local UIAspectRatioConstraint = Instance.new("UIAspectRatioConstraint")
 local Frame_2 = Instance.new("Frame")
-local UIAspectRatioConstraint_3 = Instance.new("UIAspectRatioConstraint")
+local UIAspectRatioConstraint_2 = Instance.new("UIAspectRatioConstraint")
 local TextLabel = Instance.new("TextLabel")
-local UIAspectRatioConstraint_4 = Instance.new("UIAspectRatioConstraint")
+local UIAspectRatioConstraint_3 = Instance.new("UIAspectRatioConstraint")
 local UITextSizeConstraint = Instance.new("UITextSizeConstraint")
 local UICorner = Instance.new("UICorner")
 local UIStroke = Instance.new("UIStroke")
 local UIGradient = Instance.new("UIGradient")
 local TextButton = Instance.new("TextButton")
 local UITextSizeConstraint_2 = Instance.new("UITextSizeConstraint")
-local UIAspectRatioConstraint_5 = Instance.new("UIAspectRatioConstraint")
+local UIAspectRatioConstraint_4 = Instance.new("UIAspectRatioConstraint")
 local Frame_3 = Instance.new("Frame")
-local UIAspectRatioConstraint_6 = Instance.new("UIAspectRatioConstraint")
+local UIAspectRatioConstraint_5 = Instance.new("UIAspectRatioConstraint")
 local TextButton_2 = Instance.new("TextButton")
 local UITextSizeConstraint_3 = Instance.new("UITextSizeConstraint")
-local UIAspectRatioConstraint_7 = Instance.new("UIAspectRatioConstraint")
+local UIAspectRatioConstraint_6 = Instance.new("UIAspectRatioConstraint")
 local TextLabel_2 = Instance.new("TextLabel")
-local UIAspectRatioConstraint_8 = Instance.new("UIAspectRatioConstraint")
+local UIAspectRatioConstraint_7 = Instance.new("UIAspectRatioConstraint")
 local UITextSizeConstraint_4 = Instance.new("UITextSizeConstraint")
 local UICorner_2 = Instance.new("UICorner")
 local UIStroke_2 = Instance.new("UIStroke")
 local UIGradient_2 = Instance.new("UIGradient")
 local Frame_4 = Instance.new("Frame")
-local UIAspectRatioConstraint_9 = Instance.new("UIAspectRatioConstraint")
+local UIAspectRatioConstraint_8 = Instance.new("UIAspectRatioConstraint")
 local TextButton_3 = Instance.new("TextButton")
 local UITextSizeConstraint_5 = Instance.new("UITextSizeConstraint")
-local UIAspectRatioConstraint_10 = Instance.new("UIAspectRatioConstraint")
+local UIAspectRatioConstraint_9 = Instance.new("UIAspectRatioConstraint")
 local TextLabel_3 = Instance.new("TextLabel")
-local UIAspectRatioConstraint_11 = Instance.new("UIAspectRatioConstraint")
+local UIAspectRatioConstraint_10 = Instance.new("UIAspectRatioConstraint")
 local UITextSizeConstraint_6 = Instance.new("UITextSizeConstraint")
 local UICorner_3 = Instance.new("UICorner")
 local UIStroke_3 = Instance.new("UIStroke")
 local UIGradient_3 = Instance.new("UIGradient")
 local Frame_5 = Instance.new("Frame")
-local UIAspectRatioConstraint_12 = Instance.new("UIAspectRatioConstraint")
+local UIAspectRatioConstraint_11 = Instance.new("UIAspectRatioConstraint")
 local TextButton_4 = Instance.new("TextButton")
 local UITextSizeConstraint_7 = Instance.new("UITextSizeConstraint")
-local UIAspectRatioConstraint_13 = Instance.new("UIAspectRatioConstraint")
+local UIAspectRatioConstraint_12 = Instance.new("UIAspectRatioConstraint")
 local TextLabel_4 = Instance.new("TextLabel")
-local UIAspectRatioConstraint_14 = Instance.new("UIAspectRatioConstraint")
+local UIAspectRatioConstraint_13 = Instance.new("UIAspectRatioConstraint")
 local UITextSizeConstraint_8 = Instance.new("UITextSizeConstraint")
 local UICorner_4 = Instance.new("UICorner")
 local UIStroke_4 = Instance.new("UIStroke")
 local UIGradient_4 = Instance.new("UIGradient")
 local Frame_6 = Instance.new("Frame")
-local UIAspectRatioConstraint_15 = Instance.new("UIAspectRatioConstraint")
+local UIAspectRatioConstraint_14 = Instance.new("UIAspectRatioConstraint")
 local TextButton_5 = Instance.new("TextButton")
 local UITextSizeConstraint_9 = Instance.new("UITextSizeConstraint")
-local UIAspectRatioConstraint_16 = Instance.new("UIAspectRatioConstraint")
+local UIAspectRatioConstraint_15 = Instance.new("UIAspectRatioConstraint")
 local TextBox = Instance.new("TextBox")
 local UITextSizeConstraint_10 = Instance.new("UITextSizeConstraint")
-local UIAspectRatioConstraint_17 = Instance.new("UIAspectRatioConstraint")
+local UIAspectRatioConstraint_16 = Instance.new("UIAspectRatioConstraint")
 local UICorner_5 = Instance.new("UICorner")
 local TextLabel_5 = Instance.new("TextLabel")
-local UIAspectRatioConstraint_18 = Instance.new("UIAspectRatioConstraint")
+local UIAspectRatioConstraint_17 = Instance.new("UIAspectRatioConstraint")
 local UITextSizeConstraint_11 = Instance.new("UITextSizeConstraint")
 local UICorner_6 = Instance.new("UICorner")
 local UIStroke_5 = Instance.new("UIStroke")
 local UIGradient_5 = Instance.new("UIGradient")
 local Frame_7 = Instance.new("Frame")
-local UIAspectRatioConstraint_19 = Instance.new("UIAspectRatioConstraint")
+local UIAspectRatioConstraint_18 = Instance.new("UIAspectRatioConstraint")
 local TextLabel_6 = Instance.new("TextLabel")
-local UIAspectRatioConstraint_20 = Instance.new("UIAspectRatioConstraint")
+local UIAspectRatioConstraint_19 = Instance.new("UIAspectRatioConstraint")
 local UITextSizeConstraint_12 = Instance.new("UITextSizeConstraint")
 local UICorner_7 = Instance.new("UICorner")
 local UIStroke_6 = Instance.new("UIStroke")
@@ -77,6 +76,10 @@ local UIGradient_6 = Instance.new("UIGradient")
 local UIStroke_7 = Instance.new("UIStroke")
 local UIGradient_7 = Instance.new("UIGradient")
 local UICorner_8 = Instance.new("UICorner")
+local ImageButton = Instance.new("ImageButton")
+local UICorner_9 = Instance.new("UICorner")
+local UIGradient_8 = Instance.new("UIGradient")
+local UIAspectRatioConstraint_20 = Instance.new("UIAspectRatioConstraint")
 
 --Properties:
 
@@ -84,28 +87,25 @@ WaladHessa.Name = "WaladHessa"
 WaladHessa.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
 WaladHessa.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
 
-UIAspectRatioConstraint.Parent = WaladHessa
-UIAspectRatioConstraint.AspectRatio = 1.903
-
 Frame.Parent = WaladHessa
 Frame.BackgroundColor3 = Color3.fromRGB(40, 40, 40)
 Frame.BorderColor3 = Color3.fromRGB(0, 0, 0)
 Frame.BorderSizePixel = 0
 Frame.Position = UDim2.new(0.240050346, 0, 0.173914477, 0)
-Frame.Size = UDim2.new(0.452816159, 0, 0.651639342, 0)
+Frame.Size = UDim2.new(0.452816159, 0, 0.625801444, 0)
 
-UIAspectRatioConstraint_2.Parent = Frame
-UIAspectRatioConstraint_2.AspectRatio = 1.323
+UIAspectRatioConstraint.Parent = Frame
+UIAspectRatioConstraint.AspectRatio = 1.323
 
 Frame_2.Parent = Frame
 Frame_2.BackgroundColor3 = Color3.fromRGB(50, 50, 50)
 Frame_2.BorderColor3 = Color3.fromRGB(0, 0, 0)
 Frame_2.BorderSizePixel = 0
 Frame_2.Position = UDim2.new(0.00640890701, 0, 0.860898733, 0)
-Frame_2.Size = UDim2.new(0.311581969, 0, 0.126599982, 0)
+Frame_2.Size = UDim2.new(0.31158191, 0, 0.126599982, 0)
 
-UIAspectRatioConstraint_3.Parent = Frame_2
-UIAspectRatioConstraint_3.AspectRatio = 3.255
+UIAspectRatioConstraint_2.Parent = Frame_2
+UIAspectRatioConstraint_2.AspectRatio = 3.255
 
 TextLabel.Parent = Frame_2
 TextLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
@@ -113,7 +113,7 @@ TextLabel.BackgroundTransparency = 1.000
 TextLabel.BorderColor3 = Color3.fromRGB(0, 0, 0)
 TextLabel.BorderSizePixel = 0
 TextLabel.Position = UDim2.new(0.0174854863, 0, 0, 0)
-TextLabel.Size = UDim2.new(0.427034169, 0, 1, 0)
+TextLabel.Size = UDim2.new(0.427034169, 0, 0.999999881, 0)
 TextLabel.RichText = true
 TextLabel.Font = Enum.Font.Garamond
 TextLabel.Text = "Night"
@@ -122,8 +122,8 @@ TextLabel.TextScaled = true
 TextLabel.TextSize = 30.000
 TextLabel.TextWrapped = true
 
-UIAspectRatioConstraint_4.Parent = TextLabel
-UIAspectRatioConstraint_4.AspectRatio = 1.390
+UIAspectRatioConstraint_3.Parent = TextLabel
+UIAspectRatioConstraint_3.AspectRatio = 1.390
 
 UITextSizeConstraint.Parent = TextLabel
 UITextSizeConstraint.MaxTextSize = 78
@@ -144,7 +144,7 @@ TextButton.BackgroundTransparency = 1.000
 TextButton.BorderColor3 = Color3.fromRGB(0, 0, 0)
 TextButton.BorderSizePixel = 0
 TextButton.Position = UDim2.new(0.442188412, 0, -0.0668905899, 0)
-TextButton.Size = UDim2.new(0.50136745, 0, 1.11591029, 0)
+TextButton.Size = UDim2.new(0.50136745, 0, 1.11591017, 0)
 TextButton.Font = Enum.Font.SourceSans
 TextButton.Text = "OK"
 TextButton.TextColor3 = Color3.fromRGB(148, 55, 255)
@@ -155,18 +155,18 @@ TextButton.TextWrapped = true
 UITextSizeConstraint_2.Parent = TextButton
 UITextSizeConstraint_2.MaxTextSize = 79
 
-UIAspectRatioConstraint_5.Parent = TextButton
-UIAspectRatioConstraint_5.AspectRatio = 1.462
+UIAspectRatioConstraint_4.Parent = TextButton
+UIAspectRatioConstraint_4.AspectRatio = 1.462
 
 Frame_3.Parent = Frame
 Frame_3.BackgroundColor3 = Color3.fromRGB(50, 50, 50)
 Frame_3.BorderColor3 = Color3.fromRGB(0, 0, 0)
 Frame_3.BorderSizePixel = 0
 Frame_3.Position = UDim2.new(0.0051194448, 0, 0.707263112, 0)
-Frame_3.Size = UDim2.new(0.311008811, 0, 0.123382196, 0)
+Frame_3.Size = UDim2.new(0.311008751, 0, 0.123382188, 0)
 
-UIAspectRatioConstraint_6.Parent = Frame_3
-UIAspectRatioConstraint_6.AspectRatio = 3.334
+UIAspectRatioConstraint_5.Parent = Frame_3
+UIAspectRatioConstraint_5.AspectRatio = 3.334
 
 TextButton_2.Parent = Frame_3
 TextButton_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
@@ -185,8 +185,8 @@ TextButton_2.TextWrapped = true
 UITextSizeConstraint_3.Parent = TextButton_2
 UITextSizeConstraint_3.MaxTextSize = 79
 
-UIAspectRatioConstraint_7.Parent = TextButton_2
-UIAspectRatioConstraint_7.AspectRatio = 1.462
+UIAspectRatioConstraint_6.Parent = TextButton_2
+UIAspectRatioConstraint_6.AspectRatio = 1.462
 
 TextLabel_2.Parent = Frame_3
 TextLabel_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
@@ -203,8 +203,8 @@ TextLabel_2.TextScaled = true
 TextLabel_2.TextSize = 30.000
 TextLabel_2.TextWrapped = true
 
-UIAspectRatioConstraint_8.Parent = TextLabel_2
-UIAspectRatioConstraint_8.AspectRatio = 1.424
+UIAspectRatioConstraint_7.Parent = TextLabel_2
+UIAspectRatioConstraint_7.AspectRatio = 1.424
 
 UITextSizeConstraint_4.Parent = TextLabel_2
 UITextSizeConstraint_4.MaxTextSize = 78
@@ -224,10 +224,10 @@ Frame_4.BackgroundColor3 = Color3.fromRGB(50, 50, 50)
 Frame_4.BorderColor3 = Color3.fromRGB(0, 0, 0)
 Frame_4.BorderSizePixel = 0
 Frame_4.Position = UDim2.new(4.07467162e-08, 0, 0.522402704, 0)
-Frame_4.Size = UDim2.new(0.311581969, 0, 0.165435061, 0)
+Frame_4.Size = UDim2.new(0.31158191, 0, 0.165435061, 0)
 
-UIAspectRatioConstraint_9.Parent = Frame_4
-UIAspectRatioConstraint_9.AspectRatio = 2.491
+UIAspectRatioConstraint_8.Parent = Frame_4
+UIAspectRatioConstraint_8.AspectRatio = 2.491
 
 TextButton_3.Parent = Frame_4
 TextButton_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
@@ -246,8 +246,8 @@ TextButton_3.TextWrapped = true
 UITextSizeConstraint_5.Parent = TextButton_3
 UITextSizeConstraint_5.MaxTextSize = 99
 
-UIAspectRatioConstraint_10.Parent = TextButton_3
-UIAspectRatioConstraint_10.AspectRatio = 1.535
+UIAspectRatioConstraint_9.Parent = TextButton_3
+UIAspectRatioConstraint_9.AspectRatio = 1.535
 
 TextLabel_3.Parent = Frame_4
 TextLabel_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
@@ -264,8 +264,8 @@ TextLabel_3.TextScaled = true
 TextLabel_3.TextSize = 30.000
 TextLabel_3.TextWrapped = true
 
-UIAspectRatioConstraint_11.Parent = TextLabel_3
-UIAspectRatioConstraint_11.AspectRatio = 1.064
+UIAspectRatioConstraint_10.Parent = TextLabel_3
+UIAspectRatioConstraint_10.AspectRatio = 1.064
 
 UITextSizeConstraint_6.Parent = TextLabel_3
 UITextSizeConstraint_6.MaxTextSize = 78
@@ -285,10 +285,10 @@ Frame_5.BackgroundColor3 = Color3.fromRGB(50, 50, 50)
 Frame_5.BorderColor3 = Color3.fromRGB(0, 0, 0)
 Frame_5.BorderSizePixel = 0
 Frame_5.Position = UDim2.new(0, 0, 0.326796204, 0)
-Frame_5.Size = UDim2.new(0.31158191, 0, 0.159725949, 0)
+Frame_5.Size = UDim2.new(0.31158188, 0, 0.159725949, 0)
 
-UIAspectRatioConstraint_12.Parent = Frame_5
-UIAspectRatioConstraint_12.AspectRatio = 2.580
+UIAspectRatioConstraint_11.Parent = Frame_5
+UIAspectRatioConstraint_11.AspectRatio = 2.580
 
 TextButton_4.Parent = Frame_5
 TextButton_4.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
@@ -307,8 +307,8 @@ TextButton_4.TextWrapped = true
 UITextSizeConstraint_7.Parent = TextButton_4
 UITextSizeConstraint_7.MaxTextSize = 99
 
-UIAspectRatioConstraint_13.Parent = TextButton_4
-UIAspectRatioConstraint_13.AspectRatio = 1.535
+UIAspectRatioConstraint_12.Parent = TextButton_4
+UIAspectRatioConstraint_12.AspectRatio = 1.535
 
 TextLabel_4.Parent = Frame_5
 TextLabel_4.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
@@ -325,8 +325,8 @@ TextLabel_4.TextScaled = true
 TextLabel_4.TextSize = 30.000
 TextLabel_4.TextWrapped = true
 
-UIAspectRatioConstraint_14.Parent = TextLabel_4
-UIAspectRatioConstraint_14.AspectRatio = 0.788
+UIAspectRatioConstraint_13.Parent = TextLabel_4
+UIAspectRatioConstraint_13.AspectRatio = 0.788
 
 UITextSizeConstraint_8.Parent = TextLabel_4
 UITextSizeConstraint_8.MaxTextSize = 78
@@ -346,10 +346,10 @@ Frame_6.BackgroundColor3 = Color3.fromRGB(50, 50, 50)
 Frame_6.BorderColor3 = Color3.fromRGB(0, 0, 0)
 Frame_6.BorderSizePixel = 0
 Frame_6.Position = UDim2.new(0.0051194448, 0, 0.120182544, 0)
-Frame_6.Size = UDim2.new(0.42907846, 0, 0.165023804, 0)
+Frame_6.Size = UDim2.new(0.42907843, 0, 0.165023804, 0)
 
-UIAspectRatioConstraint_15.Parent = Frame_6
-UIAspectRatioConstraint_15.AspectRatio = 3.439
+UIAspectRatioConstraint_14.Parent = Frame_6
+UIAspectRatioConstraint_14.AspectRatio = 3.439
 
 TextButton_5.Parent = Frame_6
 TextButton_5.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
@@ -368,8 +368,8 @@ TextButton_5.TextWrapped = true
 UITextSizeConstraint_9.Parent = TextButton_5
 UITextSizeConstraint_9.MaxTextSize = 47
 
-UIAspectRatioConstraint_16.Parent = TextButton_5
-UIAspectRatioConstraint_16.AspectRatio = 0.701
+UIAspectRatioConstraint_15.Parent = TextButton_5
+UIAspectRatioConstraint_15.AspectRatio = 0.701
 
 TextBox.Parent = Frame_6
 TextBox.BackgroundColor3 = Color3.fromRGB(60, 60, 60)
@@ -388,8 +388,8 @@ TextBox.TextWrapped = true
 UITextSizeConstraint_10.Parent = TextBox
 UITextSizeConstraint_10.MaxTextSize = 42
 
-UIAspectRatioConstraint_17.Parent = TextBox
-UIAspectRatioConstraint_17.AspectRatio = 1.517
+UIAspectRatioConstraint_16.Parent = TextBox
+UIAspectRatioConstraint_16.AspectRatio = 1.517
 
 UICorner_5.CornerRadius = UDim.new(0, 3)
 UICorner_5.Parent = TextBox
@@ -409,8 +409,8 @@ TextLabel_5.TextScaled = true
 TextLabel_5.TextSize = 30.000
 TextLabel_5.TextWrapped = true
 
-UIAspectRatioConstraint_18.Parent = TextLabel_5
-UIAspectRatioConstraint_18.AspectRatio = 1.050
+UIAspectRatioConstraint_17.Parent = TextLabel_5
+UIAspectRatioConstraint_17.AspectRatio = 1.050
 
 UITextSizeConstraint_11.Parent = TextLabel_5
 UITextSizeConstraint_11.MaxTextSize = 78
@@ -430,10 +430,10 @@ Frame_7.BackgroundColor3 = Color3.fromRGB(50, 50, 50)
 Frame_7.BorderColor3 = Color3.fromRGB(0, 0, 0)
 Frame_7.BorderSizePixel = 0
 Frame_7.Position = UDim2.new(0.370970428, 0, -0.0581761152, 0)
-Frame_7.Size = UDim2.new(0.203431636, 0, 0.122641519, 0)
+Frame_7.Size = UDim2.new(0.203431606, 0, 0.122641511, 0)
 
-UIAspectRatioConstraint_19.Parent = Frame_7
-UIAspectRatioConstraint_19.AspectRatio = 2.194
+UIAspectRatioConstraint_18.Parent = Frame_7
+UIAspectRatioConstraint_18.AspectRatio = 2.194
 
 TextLabel_6.Parent = Frame_7
 TextLabel_6.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
@@ -450,8 +450,8 @@ TextLabel_6.TextScaled = true
 TextLabel_6.TextSize = 30.000
 TextLabel_6.TextWrapped = true
 
-UIAspectRatioConstraint_20.Parent = TextLabel_6
-UIAspectRatioConstraint_20.AspectRatio = 2.063
+UIAspectRatioConstraint_19.Parent = TextLabel_6
+UIAspectRatioConstraint_19.AspectRatio = 2.063
 
 UITextSizeConstraint_12.Parent = TextLabel_6
 UITextSizeConstraint_12.MaxTextSize = 78
@@ -476,25 +476,42 @@ UIGradient_7.Parent = UIStroke_7
 UICorner_8.CornerRadius = UDim.new(0, 9)
 UICorner_8.Parent = Frame
 
+ImageButton.Parent = WaladHessa
+ImageButton.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ImageButton.BorderColor3 = Color3.fromRGB(0, 0, 0)
+ImageButton.BorderSizePixel = 0
+ImageButton.Position = UDim2.new(0.111547083, 0, 0.189549178, 0)
+ImageButton.Size = UDim2.new(0.0341928266, 0, 0.0594262294, 0)
+ImageButton.Image = "rbxassetid://16852795412"
+
+UICorner_9.CornerRadius = UDim.new(0, 30)
+UICorner_9.Parent = ImageButton
+
+UIGradient_8.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(4, 50, 255)), ColorSequenceKeypoint.new(0.51, Color3.fromRGB(4, 50, 255)), ColorSequenceKeypoint.new(0.95, Color3.fromRGB(4, 50, 255)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(0, 0, 0))}
+UIGradient_8.Parent = ImageButton
+
+UIAspectRatioConstraint_20.Parent = ImageButton
+UIAspectRatioConstraint_20.AspectRatio = 1.052
+
 -- Scripts:
 
-local function ZEPU_fake_script() -- TextButton.LocalScript 
+local function KNMNVQH_fake_script() -- TextButton.LocalScript 
 	local script = Instance.new('LocalScript', TextButton)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		game.Lighting.ClockTime = 19.5
 	end)
 end
-coroutine.wrap(ZEPU_fake_script)()
-local function MBQZ_fake_script() -- TextButton_2.LocalScript 
+coroutine.wrap(KNMNVQH_fake_script)()
+local function PSRUMK_fake_script() -- TextButton_2.LocalScript 
 	local script = Instance.new('LocalScript', TextButton_2)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		game.Lighting.ClockTime = 14.5
 	end)
 end
-coroutine.wrap(MBQZ_fake_script)()
-local function SMVSGT_fake_script() -- Frame.DragScript 
+coroutine.wrap(PSRUMK_fake_script)()
+local function HOOXU_fake_script() -- Frame.DragScript 
 	local script = Instance.new('LocalScript', Frame)
 
 	--Not made by me, check out this video: https://www.youtube.com/watch?v=z25nyNBG7Js&t=22s
@@ -537,8 +554,8 @@ local function SMVSGT_fake_script() -- Frame.DragScript
 	end)
 	
 end
-coroutine.wrap(SMVSGT_fake_script)()
-local function DCIWHM_fake_script() -- TextButton_3.LocalScript 
+coroutine.wrap(HOOXU_fake_script)()
+local function YSAAV_fake_script() -- TextButton_3.LocalScript 
 	local script = Instance.new('LocalScript', TextButton_3)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -554,8 +571,8 @@ local function DCIWHM_fake_script() -- TextButton_3.LocalScript
 		tool.Parent = game.Players.LocalPlayer.Backpack
 	end)
 end
-coroutine.wrap(DCIWHM_fake_script)()
-local function KOTEJOF_fake_script() -- TextButton_4.LocalScript 
+coroutine.wrap(YSAAV_fake_script)()
+local function RVRSU_fake_script() -- TextButton_4.LocalScript 
 	local script = Instance.new('LocalScript', TextButton_4)
 
 	local UIS = game:GetService("UserInputService")
@@ -609,8 +626,8 @@ local function KOTEJOF_fake_script() -- TextButton_4.LocalScript
 		UIS.JumpRequest:connect(onJumpRequest)
 	end)
 end
-coroutine.wrap(KOTEJOF_fake_script)()
-local function MTAHNWO_fake_script() -- TextButton_5.LocalScript 
+coroutine.wrap(RVRSU_fake_script)()
+local function YMKX_fake_script() -- TextButton_5.LocalScript 
 	local script = Instance.new('LocalScript', TextButton_5)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -622,4 +639,60 @@ local function MTAHNWO_fake_script() -- TextButton_5.LocalScript
 		end
 	end)     
 end
-coroutine.wrap(MTAHNWO_fake_script)()
+coroutine.wrap(YMKX_fake_script)()
+local function KSVYAS_fake_script() -- ImageButton.LocalScript 
+	local script = Instance.new('LocalScript', ImageButton)
+
+	--You dont need to delete this text.
+	--PUT INSIDE a BUTTON in StarterGui
+	--Make sure to make a frame for the menu to pop up then go to properties > Visible [Off]
+	script.Parent.MouseButton1Click:Connect (function()
+		script.Parent.Parent.Frame.Visible = not script.Parent.Parent.Frame.Visible
+	end)
+end
+coroutine.wrap(KSVYAS_fake_script)()
+local function YGWCKGO_fake_script() -- ImageButton.DragScript 
+	local script = Instance.new('LocalScript', ImageButton)
+
+	--Not made by me, check out this video: https://www.youtube.com/watch?v=z25nyNBG7Js&t=22s
+	--Put this inside of your Frame and configure the speed if you would like.
+	--Enjoy! Credits go to: https://www.youtube.com/watch?v=z25nyNBG7Js&t=22s
+	
+	local UIS = game:GetService('UserInputService')
+	local frame = script.Parent
+	local dragToggle = nil
+	local dragSpeed = 0.25
+	local dragStart = nil
+	local startPos = nil
+	
+	local function updateInput(input)
+		local delta = input.Position - dragStart
+		local position = UDim2.new(startPos.X.Scale, startPos.X.Offset + delta.X,
+			startPos.Y.Scale, startPos.Y.Offset + delta.Y)
+		game:GetService('TweenService'):Create(frame, TweenInfo.new(dragSpeed), {Position = position}):Play()
+	end
+	
+	frame.InputBegan:Connect(function(input)
+		if (input.UserInputType == Enum.UserInputType.MouseButton1 or input.UserInputType == Enum.UserInputType.Touch) then 
+			dragToggle = true
+			dragStart = input.Position
+			startPos = frame.Position
+			input.Changed:Connect(function()
+				if input.UserInputState == Enum.UserInputState.End then
+					dragToggle = false
+				end
+			end)
+		end
+	end)
+	
+	UIS.InputChanged:Connect(function(input)
+		if input.UserInputType == Enum.UserInputType.MouseMovement or input.UserInputType == Enum.UserInputType.Touch then
+			if dragToggle then
+				updateInput(input)
+			end
+		end
+	end)
+	
+end
+coroutine.wrap(YGWCKGO_fake_script)()
+
