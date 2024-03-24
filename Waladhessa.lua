@@ -76,10 +76,21 @@ local UIGradient_6 = Instance.new("UIGradient")
 local UIStroke_7 = Instance.new("UIStroke")
 local UIGradient_7 = Instance.new("UIGradient")
 local UICorner_8 = Instance.new("UICorner")
-local ImageButton = Instance.new("ImageButton")
-local UICorner_9 = Instance.new("UICorner")
-local UIGradient_8 = Instance.new("UIGradient")
+local Frame_8 = Instance.new("Frame")
+local TextButton_6 = Instance.new("TextButton")
+local UITextSizeConstraint_13 = Instance.new("UITextSizeConstraint")
 local UIAspectRatioConstraint_20 = Instance.new("UIAspectRatioConstraint")
+local TextLabel_7 = Instance.new("TextLabel")
+local UITextSizeConstraint_14 = Instance.new("UITextSizeConstraint")
+local UIAspectRatioConstraint_21 = Instance.new("UIAspectRatioConstraint")
+local UICorner_9 = Instance.new("UICorner")
+local UIStroke_8 = Instance.new("UIStroke")
+local UIGradient_8 = Instance.new("UIGradient")
+local UIAspectRatioConstraint_22 = Instance.new("UIAspectRatioConstraint")
+local ImageButton = Instance.new("ImageButton")
+local UICorner_10 = Instance.new("UICorner")
+local UIGradient_9 = Instance.new("UIGradient")
+local UIAspectRatioConstraint_23 = Instance.new("UIAspectRatioConstraint")
 
 --Properties:
 
@@ -224,7 +235,7 @@ Frame_4.BackgroundColor3 = Color3.fromRGB(50, 50, 50)
 Frame_4.BorderColor3 = Color3.fromRGB(0, 0, 0)
 Frame_4.BorderSizePixel = 0
 Frame_4.Position = UDim2.new(4.07467162e-08, 0, 0.522402704, 0)
-Frame_4.Size = UDim2.new(0.31158191, 0, 0.165435061, 0)
+Frame_4.Size = UDim2.new(0.31158191, 0, 0.165435046, 0)
 
 UIAspectRatioConstraint_8.Parent = Frame_4
 UIAspectRatioConstraint_8.AspectRatio = 2.491
@@ -476,6 +487,67 @@ UIGradient_7.Parent = UIStroke_7
 UICorner_8.CornerRadius = UDim.new(0, 9)
 UICorner_8.Parent = Frame
 
+Frame_8.Parent = Frame
+Frame_8.BackgroundColor3 = Color3.fromRGB(50, 50, 50)
+Frame_8.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Frame_8.BorderSizePixel = 0
+Frame_8.Position = UDim2.new(0.747855783, 0, 0.120182574, 0)
+Frame_8.Size = UDim2.new(0.252144426, 0, 0.165023804, 0)
+
+TextButton_6.Parent = Frame_8
+TextButton_6.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_6.BackgroundTransparency = 1.000
+TextButton_6.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_6.BorderSizePixel = 0
+TextButton_6.Position = UDim2.new(0.622282028, 0, 0.152739421, 0)
+TextButton_6.Size = UDim2.new(0.322993636, 0, 0.697127819, 0)
+TextButton_6.Font = Enum.Font.SourceSans
+TextButton_6.Text = "OK"
+TextButton_6.TextColor3 = Color3.fromRGB(148, 55, 255)
+TextButton_6.TextScaled = true
+TextButton_6.TextSize = 14.000
+TextButton_6.TextWrapped = true
+
+UITextSizeConstraint_13.Parent = TextButton_6
+UITextSizeConstraint_13.MaxTextSize = 64
+
+UIAspectRatioConstraint_20.Parent = TextButton_6
+UIAspectRatioConstraint_20.AspectRatio = 0.936
+
+TextLabel_7.Parent = Frame_8
+TextLabel_7.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_7.BackgroundTransparency = 1.000
+TextLabel_7.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_7.BorderSizePixel = 0
+TextLabel_7.Position = UDim2.new(-0.00215268391, 0, 0.0099212639, 0)
+TextLabel_7.Size = UDim2.new(0.526234806, 0, 1, 0)
+TextLabel_7.RichText = true
+TextLabel_7.Font = Enum.Font.Garamond
+TextLabel_7.Text = "Noclip"
+TextLabel_7.TextColor3 = Color3.fromRGB(148, 33, 146)
+TextLabel_7.TextScaled = true
+TextLabel_7.TextSize = 39.000
+TextLabel_7.TextWrapped = true
+
+UITextSizeConstraint_14.Parent = TextLabel_7
+UITextSizeConstraint_14.MaxTextSize = 39
+
+UIAspectRatioConstraint_21.Parent = TextLabel_7
+UIAspectRatioConstraint_21.AspectRatio = 1.063
+
+UICorner_9.CornerRadius = UDim.new(0, 3)
+UICorner_9.Parent = Frame_8
+
+UIStroke_8.Color = Color3.fromRGB(255, 255, 255)
+UIStroke_8.Thickness = 1.5
+UIStroke_8.Parent = Frame_8
+
+UIGradient_8.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(147, 32, 146)), ColorSequenceKeypoint.new(0.27, Color3.fromRGB(206, 50, 205)), ColorSequenceKeypoint.new(0.49, Color3.fromRGB(255, 64, 255)), ColorSequenceKeypoint.new(0.85, Color3.fromRGB(255, 64, 255)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 38, 0))}
+UIGradient_8.Parent = UIStroke_8
+
+UIAspectRatioConstraint_22.Parent = Frame_8
+UIAspectRatioConstraint_22.AspectRatio = 2.021
+
 ImageButton.Parent = WaladHessa
 ImageButton.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 ImageButton.BorderColor3 = Color3.fromRGB(0, 0, 0)
@@ -484,34 +556,34 @@ ImageButton.Position = UDim2.new(0.111547083, 0, 0.189549178, 0)
 ImageButton.Size = UDim2.new(0.0341928266, 0, 0.0594262294, 0)
 ImageButton.Image = "rbxassetid://16852795412"
 
-UICorner_9.CornerRadius = UDim.new(0, 30)
-UICorner_9.Parent = ImageButton
+UICorner_10.CornerRadius = UDim.new(0, 30)
+UICorner_10.Parent = ImageButton
 
-UIGradient_8.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(4, 50, 255)), ColorSequenceKeypoint.new(0.51, Color3.fromRGB(4, 50, 255)), ColorSequenceKeypoint.new(0.95, Color3.fromRGB(4, 50, 255)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(0, 0, 0))}
-UIGradient_8.Parent = ImageButton
+UIGradient_9.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(4, 50, 255)), ColorSequenceKeypoint.new(0.51, Color3.fromRGB(4, 50, 255)), ColorSequenceKeypoint.new(0.95, Color3.fromRGB(4, 50, 255)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(0, 0, 0))}
+UIGradient_9.Parent = ImageButton
 
-UIAspectRatioConstraint_20.Parent = ImageButton
-UIAspectRatioConstraint_20.AspectRatio = 1.052
+UIAspectRatioConstraint_23.Parent = ImageButton
+UIAspectRatioConstraint_23.AspectRatio = 1.052
 
 -- Scripts:
 
-local function KNMNVQH_fake_script() -- TextButton.LocalScript 
+local function ZFAI_fake_script() -- TextButton.LocalScript 
 	local script = Instance.new('LocalScript', TextButton)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		game.Lighting.ClockTime = 19.5
 	end)
 end
-coroutine.wrap(KNMNVQH_fake_script)()
-local function PSRUMK_fake_script() -- TextButton_2.LocalScript 
+coroutine.wrap(ZFAI_fake_script)()
+local function TMUGP_fake_script() -- TextButton_2.LocalScript 
 	local script = Instance.new('LocalScript', TextButton_2)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		game.Lighting.ClockTime = 14.5
 	end)
 end
-coroutine.wrap(PSRUMK_fake_script)()
-local function HOOXU_fake_script() -- Frame.DragScript 
+coroutine.wrap(TMUGP_fake_script)()
+local function WRJPKD_fake_script() -- Frame.DragScript 
 	local script = Instance.new('LocalScript', Frame)
 
 	--Not made by me, check out this video: https://www.youtube.com/watch?v=z25nyNBG7Js&t=22s
@@ -554,8 +626,8 @@ local function HOOXU_fake_script() -- Frame.DragScript
 	end)
 	
 end
-coroutine.wrap(HOOXU_fake_script)()
-local function YSAAV_fake_script() -- TextButton_3.LocalScript 
+coroutine.wrap(WRJPKD_fake_script)()
+local function WIAE_fake_script() -- TextButton_3.LocalScript 
 	local script = Instance.new('LocalScript', TextButton_3)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -571,8 +643,8 @@ local function YSAAV_fake_script() -- TextButton_3.LocalScript
 		tool.Parent = game.Players.LocalPlayer.Backpack
 	end)
 end
-coroutine.wrap(YSAAV_fake_script)()
-local function RVRSU_fake_script() -- TextButton_4.LocalScript 
+coroutine.wrap(WIAE_fake_script)()
+local function XCTXH_fake_script() -- TextButton_4.LocalScript 
 	local script = Instance.new('LocalScript', TextButton_4)
 
 	local UIS = game:GetService("UserInputService")
@@ -626,8 +698,8 @@ local function RVRSU_fake_script() -- TextButton_4.LocalScript
 		UIS.JumpRequest:connect(onJumpRequest)
 	end)
 end
-coroutine.wrap(RVRSU_fake_script)()
-local function YMKX_fake_script() -- TextButton_5.LocalScript 
+coroutine.wrap(XCTXH_fake_script)()
+local function OJBCY_fake_script() -- TextButton_5.LocalScript 
 	local script = Instance.new('LocalScript', TextButton_5)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -639,8 +711,41 @@ local function YMKX_fake_script() -- TextButton_5.LocalScript
 		end
 	end)     
 end
-coroutine.wrap(YMKX_fake_script)()
-local function KSVYAS_fake_script() -- ImageButton.LocalScript 
+coroutine.wrap(OJBCY_fake_script)()
+local function WNKSGF_fake_script() -- TextButton_6.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_6)
+
+	local Player = game:GetService("Players").LocalPlayer
+	local runservice = game:GetService("RunService")
+	
+	local isnoclipping = false
+	
+	script.Parent.MouseButton1Click:Connect(function()
+		if isnoclipping== true then
+			isnoclipping= false
+			script.Parent.Text = "OFF"
+			script.Parent.BackgroundColor3 = Color3.fromRGB(255,26,19)
+		else
+			isnoclipping= true
+			script.Parent.Text = "ON"
+			script.Parent.BackgroundColor3 = Color3.fromRGB(0, 249, 0)
+		end
+	end)
+	
+	runservice.Stepped:Connect(function()
+		if Player.Character then
+			if isnoclipping == true then
+				for i,v in pairs(Player.Character:GetDescendants()) do
+					if v:IsA("BasePart") then
+						v.CanCollide = false
+					end
+				end
+			end
+		end
+	end)
+end
+coroutine.wrap(WNKSGF_fake_script)()
+local function DWKFFS_fake_script() -- ImageButton.LocalScript 
 	local script = Instance.new('LocalScript', ImageButton)
 
 	--You dont need to delete this text.
@@ -650,8 +755,8 @@ local function KSVYAS_fake_script() -- ImageButton.LocalScript
 		script.Parent.Parent.Frame.Visible = not script.Parent.Parent.Frame.Visible
 	end)
 end
-coroutine.wrap(KSVYAS_fake_script)()
-local function YGWCKGO_fake_script() -- ImageButton.DragScript 
+coroutine.wrap(DWKFFS_fake_script)()
+local function RDAS_fake_script() -- ImageButton.DragScript 
 	local script = Instance.new('LocalScript', ImageButton)
 
 	--Not made by me, check out this video: https://www.youtube.com/watch?v=z25nyNBG7Js&t=22s
@@ -694,5 +799,4 @@ local function YGWCKGO_fake_script() -- ImageButton.DragScript
 	end)
 	
 end
-coroutine.wrap(YGWCKGO_fake_script)()
-
+coroutine.wrap(RDAS_fake_script)()
