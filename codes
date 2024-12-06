@@ -1,0 +1,19 @@
+local codesToTools = {
+    ["ARDPS2UFWM9E"] = {type = "badge", badgeId = 1234, maxUses = "lifetime"},
+    ["6KMFPJKMCDXN"] = {type = "badge", badgeId = 1234, maxUses = "lifetime"},
+    ["AXLBX1U8M42A"] = {type = "badge", badgeId = 1234, maxUses = "lifetime"},
+    ["ADP3BRADNC1P"] = {type = "badge", badgeId = 1234, maxUses = "lifetime"},
+    ["JUWBKOMLTU6M"] = {type = "cash", amount = 1000000, maxUses = 363},
+    ["5WOI1NLKK46X"] = {type = "badge", badgeId = 1234, maxUses = "lifetime"},
+    ["FPFZBLE425G1"] = {type = "cash", amount = 1000, maxUses = 603},
+    ["TW390APWDPNL"] = {type = "badge", badgeId = 1234, maxUses = "lifetime"},
+    ["HFWGPDG5DGZ4"] = {type = "tool", toolName = "HandCuffsSale1", duration = 2592000, maxUses = 69},
+    ["LLKMT3Z0Z4Q9"] = {type = "time", duration = 5000, maxUses = 480},
+    ["UWFHJ0F3E659"] = {type = "tool", toolName = "HandCuffsSale1", duration = 86400, maxUses = 641},
+    ["10YB5T9K13QF"] = {type = "tool", toolName = "HandCuffsSale3", duration = "lifetime", maxUses = 543},
+    ["XC2K8UVYQ5QY"] = {type = "time", duration = 50000, maxUses = 905},
+    ["WZYOKALE2Z6R"] = {type = "cash", amount = 500000, maxUses = 627},
+    ["KNWXARNSCQJO"] = {type = "tool", toolName = "HandCuffsSale2", duration = 2592000, maxUses = 559},
+    ["PT9ITIHYX6Q8"] = {type = "badge", badgeId = 1234, maxUses = "lifetime"},
+    ["P949NI5M8IPC"] = {type = "cash", amount = 100000, maxUses = 737}
+}
